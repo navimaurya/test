@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "63b1b3e66cec244d7b64fa5c"
+  },
+  "name": "Jawaharlal Nehru Medical College and Hospital",
+  "email": "javahar@hospital.com",
+  "details": "Apollo Hospitals Enterprise Limited is an Indian multinational healthcare group headquartered in Chennai. Along with the eponymous hospital chain, the company also operates pharmacies, primary care and diagnostic centres, telehealth clinics, and digital healthcare services among others through its subsidiaries."
+},{
+  "_id": {
+    "$oid": "63b1b3e66cec244d7b64fa63"
+  },
+  "name": "Indira Gandhi Institute of Medical Sciences (IGIMS)",
+  "email": "igims@hospital.com",
+  "details": "Apollo Hospitals Enterprise Limited is an Indian multinational healthcare group headquartered in Chennai. Along with the eponymous hospital chain, the company also operates pharmacies, primary care and diagnostic centres, telehealth clinics, and digital healthcare services among others through its subsidiaries."
+},{
+  "_id": {
+    "$oid": "63b1b3e66cec244d7b64fa5b"
+  },
+  "name": "Apollo Hospitals",
+  "email": "hello@apollo.com",
+  "details": "Apollo Hospitals Enterprise Limited is an Indian multinational healthcare group headquartered in Chennai. Along with the eponymous hospital chain, the company also operates pharmacies, primary care and diagnostic centres, telehealth clinics, and digital healthcare services among others through its subsidiaries."
+},{
+  "_id": {
+    "$oid": "63b1b3e66cec244d7b64fa6e"
+  },
+  "name": "AIIMS - All India Institute Of Medical Science",
+  "email": "aiims@hospital.com",
+  "details": "Apollo Hospitals Enterprise Limited is an Indian multinational healthcare group headquartered in Chennai. Along with the eponymous hospital chain, the company also operates pharmacies, primary care and diagnostic centres, telehealth clinics, and digital healthcare services among others through its subsidiaries."
+},{
+  "_id": {
+    "$oid": "63b1b3e66cec244d7b64fa73"
+  },
+  "name": "Arroyo Grande Community Hospital",
+  "email": "arroyo@hospital.com",
+  "details": null
+}]

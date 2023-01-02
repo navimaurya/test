@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "63b1b4390f31472a03acedbd"
+  },
+  "name": "Ramesh",
+  "email": "ramesh@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa5b"
+  }
+},{
+  "_id": {
+    "$oid": "63b1b5430f31472a03acedc9"
+  },
+  "name": "Amit",
+  "email": "am@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa5b"
+  }
+},{
+  "_id": {
+    "$oid": "63b27c50ca7646266fb0d6a6"
+  },
+  "name": "Dhruv",
+  "email": "dhruv@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa5b"
+  }
+},{
+  "_id": {
+    "$oid": "63b2bbf358ef6aef9d0cd711"
+  },
+  "name": "Dhruv2",
+  "email": "dhruv2@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa5c"
+  }
+},{
+  "_id": {
+    "$oid": "63b2bd0e58ef6aef9d0cd725"
+  },
+  "name": "MD Azhar",
+  "email": "az@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa5c"
+  }
+},{
+  "_id": {
+    "$oid": "63b2bd5e58ef6aef9d0cd72d"
+  },
+  "name": "Dileep k",
+  "email": "dileep@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa5c"
+  }
+},{
+  "_id": {
+    "$oid": "63b2bd7858ef6aef9d0cd72f"
+  },
+  "name": "Saumya C",
+  "email": "smc@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa5c"
+  }
+},{
+  "_id": {
+    "$oid": "63b2be2458ef6aef9d0cd73b"
+  },
+  "name": "Saumya D",
+  "email": "smcd@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa63"
+  }
+},{
+  "_id": {
+    "$oid": "63b2beaf58ef6aef9d0cd743"
+  },
+  "name": "Sanjay M",
+  "email": "sanm@apollo.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa63"
+  }
+},{
+  "_id": {
+    "$oid": "63b2bf42055ba3d5ca6dc3a9"
+  },
+  "name": "Naveen M",
+  "email": "nvm@hospital.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa63"
+  }
+},{
+  "_id": {
+    "$oid": "63b2c035055ba3d5ca6dc3b0"
+  },
+  "name": "Dr. x",
+  "email": "drx@hospital.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa6e"
+  }
+},{
+  "_id": {
+    "$oid": "63b2c18f3618d9f3f2b4fe87"
+  },
+  "name": "Dr. Binod",
+  "email": "binod_bhau@hospital.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa6e"
+  }
+},{
+  "_id": {
+    "$oid": "63b2c2023618d9f3f2b4fe8f"
+  },
+  "name": "Salini",
+  "email": "salu@hospital.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa6e"
+  }
+},{
+  "_id": {
+    "$oid": "63b2c25f3618d9f3f2b4fe9c"
+  },
+  "name": "Sohan",
+  "email": "sohan@hospital.com",
+  "hospital": {
+    "$oid": "63b1b3e66cec244d7b64fa6e"
+  }
+}]
