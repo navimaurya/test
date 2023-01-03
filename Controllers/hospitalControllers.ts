@@ -24,31 +24,35 @@ export const getHospital = catchAsync(async (req: Request, res: Response, next: 
 
     // const hospital = await Hospitals.find().skip(skip).limit(10)
     const count = await Hospitals.count({})
+
     const hospital = await Hospitals.aggregate([
+        { $skip: skip },
+        { $limit: 10 },
         {
             $lookup: {
-                from: 'doctors',
-                localField: '_id',
-                foreignField: 'hospital',
-                as: 'doctors'
-            },
-        },
-        {
-            $lookup: {
-                from: 'patients',
-                localField: '_id',
-                foreignField: 'hospital',
-                as: 'patients'
-            },
-        },
-        {
-            $addFields: {
-                totalDoctors: { $size: '$doctors' },
-                totalPatients: { $size: '$patients' }
+                from: "doctors",
+                localField: "_id",
+                foreignField: "hospital",
+                as: "doctors"
             }
         },
         {
-            $project: { doctors: 0, patients: 0 }
+            $lookup: {
+                from: "patients",
+                localField: "doctors._id",
+                foreignField: "doctor",
+                as: "patients"
+            }
+        },
+        {
+            $project: {
+                _id: '$_id',
+                name: "$name",
+                details: '$details',
+                doctorCount: { $size: "$doctors" },
+                patientsCount: { $size: "$patients" },
+                // doctors: "$doctors",
+            }
         }
     ])
 
