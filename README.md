@@ -10,8 +10,6 @@ List of all the major libraries/frameworks
 - jsonwebtoken
 - mongoose
 - multer
-- mysql2
-- sequelize
 - sharp
 - valida
 
