@@ -51,7 +51,7 @@ app.all('*', (req, res, next) => {
 app.use(errorController)
 
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 5000
 const server = app.listen(port, () => {
   if (!['development', 'production'].includes(process.env.NODE_ENV)) {
     console.error("Please provide server environment, ['development'or 'production']")
